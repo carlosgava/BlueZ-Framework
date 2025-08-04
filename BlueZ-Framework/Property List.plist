@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Property List.plist
+   BlueZ-Framework
+
+   Created by Carlos Henrique Gava on 29/07/25.
+   Copyright (c) 2025 ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>com.yourcompany.yourservice</string>
+        <key>ProgramArguments</key>
+        <array>
+            <string>/path/to/your/executable</string>
+            <string>argument1</string>
+            <string>argument2</string>
+        </array>
+        <key>RunAtLoad</key>
+        <true/>
+        <key>KeepAlive</key>
+        <true/>
+        <key>StandardErrorPath</key>
+        <string>/var/log/yourservice.log</string>
+        <key>StandardOutPath</key>
+        <string>/var/log/yourservice.log</string>
+    </dict>
+</plist>
